@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+div {margin: 5px}
+label {width: 250px;display: inline-block;}
+input,select{    
+    display: inline-block;
+    width: 350px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;}
+button {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;}    
+</style>
+
+</head>
+<body>
+<h1>Post to CTIUS</h1>
+
+<p>Edit the form.action to point to your server</p>
+
+ <form action="http://apregtruotxp51:8080/sites/CTIUS/en/client-base" method="POST">
+<!--<form action="https://ctius.atuat.acegroup.com/en/client-base" method="POST"> -->
+    <div><label>_DTA_POST_TO_STEP_:         </label><select name="_DTA_POST_TO_STEP_"><option value="1">1</option><option value="2">2</option><option value="3" selected="true">3</option><option value="4">4</option><option value="5">5</option></select></div>
+    <div><label>LoginID:                    </label><input type="text" name="LoginID"  value=""/></div>
+    <div><label>PassWord:                   </label><input type="text" name="PassWord"  value=""/></div>
+    <button type="submit">Form Post</button>      
+
+    <div><label>AccountNo:                  </label><input type="text" name="AccountNo" value=""/></div>
+    <div><label>AgencyCode:                 </label><input type="text" name="AgencyCode" value=""/></div>
+    <div><label>AccountNo:                  </label><input type="text" name="Referrer" value="TRAMS"/></div>
+    <div><label>AgencyCode:                 </label><input type="text" name="SerialNo" value="5113169"/></div>
+    <div><label>AccountNo:                  </label><input type="text" name="add_field1" value="N"/></div>
+    <div><label>AgencyCode:                 </label><input type="text" name="add_field2" value="N"/></div>
+    <div><label>AccountNo:                  </label><input type="text" name="transaction_type" value="booking"/></div>
+    <div><label>AgencyCode:                 </label><input type="text" name="policy_number"  value=""/></div>
+    <div><label>paxCount:                   </label><input type="text" name="paxCount"  value="3"/></div>
+
+    <div><label>passenger1                  </label><input type="text" name="passenger1" value="Chee%252FCaleb%7C11111980%7CM%7CDr.%7Cguanhao%40Live.com%7CPrimary%7CA12345678%7C18042018%7CMY%7C18042020%7CGh%7C%7C%7C%7C%7C%7C%7C"/></div>
+    <div><label>passenger2                  </label><input type="text" name="passenger2" value="Johny%252FBravo%7C12011990%7CM%7CMR%7Cjohn.bro%40chubb.com%7C%7CAbbbb123%7C22042020%7CAU%7C11042018%7CJB%7C%7C%7C%7C%7C%7C%7C" /></div>
+    <div><label>passenger3                  </label><input type="text" name="passenger3" value="Chen%252FSiew%7C14021995%7CF%7CMISS%7C%7CDaughter%7CB2345678%7C10042018%7CMY%7C25042019%7C%7C%7C%7C%7C%7C%7C%7C" /></div>
+    <div><label>PhoneNumber                 </label><input type="text" name="PhoneNumber" value="2677461328"></div>
+    <div><label>                            </label><input type="text" name="PhoneDesc" value="Phone"></div>
+
+    <div><label>PassAddress                 </label><input type="text" name="PassAddress" value="Walnut Street"></div>
+    <div><label>PassAddress2                </label><input type="text" name="PassAddress2" value="Megan+Avenue%2C"></div>
+    <div><label>PassAptSuite                </label><input type="text" name="PassAptSuite" value="Unit 436"></div>
+    <div><label>PassCity                    </label><input type="text" name="PassCity" value="Philadelphia"></div>
+    <div><label>PassState                   </label><input type="text" name="PassState" value="AL"></div>
+    <div><label>PassZip                     </label><input type="text" name="PassZip" value="19106"></div>
+    <div><label>PassCountry                 </label><input type="text" name="PassCountry" value="United States"></div>
+    <div><label>TravelCategory              </label><input type="text" name="TravelCategory" value=""></div>
+    <div><label>Vendor                      </label><input type="text" name="Vendor" value=""></div>
+
+    <div><label>Destination:                </label><input type="text" name="Destination"  value="MY"/></div>
+    <div><label>TripCost:                   </label><input type="text" name="TripCost" value="3456" /> </div>
+    <div><label>AirlineCode:                </label><input type="text" name="AirlineCode" value="Qantas Airways"></div>
+    <div><label>CarRental:                  </label><input type="text" name="CarRental" value="Overland West"></div>
+    <div><label>DepartDate:                 </label><input type="text" name="DepartDate" id="travel_countries_data" value="15062018"/></div>
+    <div><label>ArriveDate                  </label><input type="text" name="ArriveDate" id="cover-from-value" value="20062018"/></div>
+    <div><label>DepositDate:                </label><input type="text" name="DepositDate" value="13062018"></div>
+    <div><label>FinalPymntDate:             </label><input type="text" name="FinalPymntDate"  value="13062018"/></div>
+    <div><label>ConfirmationNo:             </label><input type="text" name="ConfirmationNo"  value=""/></div>
+    <div><label>RecLocNo:                   </label><input type="text" name="RecLocNo"  value=""/></div>
+
+    <button type="submit">Form Post</button>    
+</form>
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
